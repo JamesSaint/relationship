@@ -193,6 +193,26 @@
       <section class="note" aria-label="Note">
         <p class="mb-0">This handout is a paraphrase and practice guide inspired by the Four Horsemen framework. Use it to support healthier conflict and stronger connection.</p>
       </section>
+              <!-- Footer -->
+<footer class="site-footer mt-4" role="contentinfo" aria-label="Site footer">
+  <div class="footer-container text-center">
+    <hr class="footer-rule" />
+    <div class="footer-note mb-1">
+      Private & Confidential.
+    </div>
+    <div class="footer-copy">
+      © <span id="copy-year"></span> James Saint. All rights reserved.
+    </div>
+  </div>
+</footer>
+<!-- Year Autoupdate -->
+<script>
+  (function () {
+    var y = new Date().getFullYear();
+    var el = document.getElementById('copy-year');
+    if (el) el.textContent = y;
+  })();
+</script>
     </main>
   </div>
 </body>
